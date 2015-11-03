@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Monster iiii">
+	<meta name="keywords" content="Monster">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<title>Monster</title>
+</head>
+<body>
+	<div class="main">
+		<div class="header">
+			<div class="logo">
+				<div class="logotext">
+					<h1><a href="/">Monster</a></h1>
+					<h2>Super monster</h2>
+				</div>
+			</div>
+			<div class="menubar">
+				<ul class="menu">
+					<li class="selected"><a href="#">Главная</a></li>
+					<li><a href="#">Портфолио</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="sitecontent">
+			<div class="sidebar_container">
+				<div class="sidebar">
+					<h2>Поиск</h2>
+					<form method="POST" action="#" id="search_form">
+						<input type="search" name="search_field" placeholder="Что ищем?" />
+						<input type="submit" class="btn" value="Найти" />
+					</form>
+				</div>
+
+				<div class="sidebar">
+					<h2>Вход</h2>
+					<form method="POST" action="#" id="login">
+						<input type="text" name="login_field" placeholder="Логин" />
+						<input type="password" name="password_field" placeholder="Пароль"/>
+						<input type="submit" class="btn" value="Войти" />
+						<div class="lables_passreg_text">
+							<span><a href="#">Забыли пароль?</a></span> | <span><a href="#">Регистрация</a></span>
+						</div>
+					</form>
+				</div>
+
+				<div class="sidebar">
+					<h2>Новости</h2>
+					<span>20.12.1990</span>
+					<p>Сегодня родился Коля</p>
+					<a href="#">Читать</a>
+				</div>
+
+				<div class="sidebar">
+					<h2>Колин рейтинг</h2>
+					<ul>
+						<li><a href="#">Интерстеллар</a><span class="rating_sidebar">10.0</span></li>
+						<li><a href="#">Матрица</a><span class="rating_sidebar">8.2</span></li>
+						<li><a href="#">Облачный атлас</a><span class="rating_sidebar">7.2</span></li>
+						<li><a href="#">Грим</a><span class="rating_sidebar">3.0</span></li>
+					</ul>
+				</div>
+			</div>
+
+		<div class="content">
+			<h1>Интерстеллар</h1>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/6ybBuTETr3U" frameborder="0" allowfullscreen></iframe>
+			
+			<div class="info_film_page">
+				<span class="label">Рейтинг:</span> <span class="value">10.0</span>
+				<span class="label">Год:</span> <span class="value">2014</span>
+				<span class="label">Режиссер:</span> <span class="value">Кристофер Нолан</span>
+			</div>
+
+			<hr>
+
+			<h2>Описание фильма</h2>
+			<div class="description_film">
+				<img src="assets/img/inter.png" />
+				<p>Когда засуха приводит человечество к продовольственному кризису, коллектив исследователей и учёных отправляется сквозь червоточину (которая предположительно соединяет области пространства-времени через большое расстояние) в путешествие, чтобы превзойти прежние ограничения для космических путешествий человека и переселить человечество на другую планету.</p>
+			</div>
+			
+			<hr>
+			<h2>Отзывы</h2>
+
+			<div class="rew">
+				<div class="name">Сергей</div>
+				<div class="mes">отличный фильм. 3 часа пролетели незаметно!</div>
+			</div>
+
+			<div class="rew">
+				<div class="name">Коля</div>
+				<div class="mes">А я не смотрел. Надо посмотреть.</div>
+			</div>
+
+			<div class="send">
+				<form action="#" method="POST" id="revew">
+					<input type="text" name="rew_name" placeholder="Ваше имя">
+					<textarea name="rew_mes"></textarea>
+					<input type="submit" value="Отправить">
+				</form>
+
+			</div>
+
+		</div>
+
+		</div>
+
+		<div class="footer">
+			<p>
+				<a href="/">Главная</a> | 
+				<a href="/">Об авторе</a> |
+				<a href="/">Что за рейтинг</a> |
+				<a href="/">Контакты</a>
+			</p>
+			<p class="copy">
+				Razilov, 2015
+			</p>
+
+		</div>
+	</div>
+</body>
+</html>
